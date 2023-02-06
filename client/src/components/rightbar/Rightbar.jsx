@@ -2,10 +2,10 @@ import "./rightbar.css";
 import { Users } from "../../dummyData";
 import Online from "../online/Online";
 
-export default function Rightbar() {
-  return (
-    <div className="rightbar">
-      <div className="rightbarWrapper">
+export default function Rightbar({ profile }) {
+  const HomeRightBar = () => {
+    return (
+      <>
         <div className="birthdayContainer">
           <img className="birthdayImg" src="assets/gift.png" alt="" />
           <span className="birthdayText">
@@ -19,6 +19,86 @@ export default function Rightbar() {
             <Online key={u.id} user={u} />
           ))}
         </ul>
+      </>
+    );
+  };
+
+  const ProfileRightBar = () => {
+    return (
+      <>
+        <h4 className="rightbarTitle">User Information:</h4>
+        <div className="rightbarInfo">
+          <div className="rightbarInfoItem">
+            <span className="rightbarInfoKey">From:</span>
+            <span className="rightbarInfoValue">Red Valley Hive #3</span>
+          </div>
+          <div className="rightbarInfoItem">
+            <span className="rightbarInfoKey">Job:</span>
+            <span className="rightbarInfoValue">Honey Tester</span>
+          </div>
+          <div className="rightbarInfoItem">
+            <span className="rightbarInfoKey">Relationship:</span>
+            <span className="rightbarInfoValue">It's complicated...</span>
+          </div>
+        </div>
+        <h4 className="rightbarTitle">User friends:</h4>
+        <div className="rightbarFollowings">
+          <div className="rightbarFollowing">
+            <img
+              src="assets/people/1.jpeg"
+              alt=""
+              className="rightbarFollowingImg"
+            />
+            <span className="rightbarFollowingName">The Queen</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img
+              src="assets/people/2.jpeg"
+              alt=""
+              className="rightbarFollowingImg"
+            />
+            <span className="rightbarFollowingName">Jack Defender</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img
+              src="assets/people/3.jpeg"
+              alt=""
+              className="rightbarFollowingImg"
+            />
+            <span className="rightbarFollowingName">John Pathfind</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img
+              src="assets/people/4.jpeg"
+              alt=""
+              className="rightbarFollowingImg"
+            />
+            <span className="rightbarFollowingName">Selby Pollen</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img
+              src="assets/people/5.jpeg"
+              alt=""
+              className="rightbarFollowingImg"
+            />
+            <span className="rightbarFollowingName">Darby Pollen</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img
+              src="assets/people/6.jpeg"
+              alt=""
+              className="rightbarFollowingImg"
+            />
+            <span className="rightbarFollowingName">R. Yellowcomb</span>
+          </div>
+        </div>
+      </>
+    );
+  };
+  return (
+    <div className="rightbar">
+      <div className="rightbarWrapper">
+        <ProfileRightBar />
       </div>
     </div>
   );
