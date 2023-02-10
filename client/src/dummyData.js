@@ -1,52 +1,52 @@
 export const Users = [
   {
     id: 1,
-    profilePicture: "assets/people/1.jpeg",
+    profilePicture: "people/1.jpeg",
     username: "The Queen",
   },
   {
     id: 2,
-    profilePicture: "assets/people/2.jpeg",
+    profilePicture: "people/2.jpeg",
     username: "Jack Defender",
   },
   {
     id: 3,
-    profilePicture: "assets/people/3.jpeg",
+    profilePicture: "people/3.jpeg",
     username: "John Pathfinder",
   },
   {
     id: 4,
-    profilePicture: "assets/people/4.jpeg",
+    profilePicture: "people/4.jpeg",
     username: "Selby Pollenprocurer",
   },
   {
     id: 5,
-    profilePicture: "assets/people/5.jpeg",
+    profilePicture: "people/5.jpeg",
     username: "Darby Pollenlover",
   },
   {
     id: 6,
-    profilePicture: "assets/people/6.jpeg",
+    profilePicture: "people/6.jpeg",
     username: "Crosby Flowerfinder",
   },
   {
     id: 7,
-    profilePicture: "assets/people/7.jpeg",
+    profilePicture: "people/7.jpeg",
     username: "Joby Tastetester",
   },
   {
     id: 8,
-    profilePicture: "assets/people/8.jpeg",
+    profilePicture: "people/8.jpeg",
     username: "Toby Hivemaster",
   },
   {
     id: 9,
-    profilePicture: "assets/people/9.jpeg",
+    profilePicture: "people/9.jpeg",
     username: "Colby Stronghive",
   },
   {
     id: 10,
-    profilePicture: "assets/people/10.jpeg",
+    profilePicture: "people/10.jpeg",
     username: "Robbie Yellowcomb",
   },
 ];
@@ -55,7 +55,7 @@ export const Posts = [
   {
     id: 1,
     desc: "Look at this flower I found!!!!",
-    photo: "assets/posts/1.jpeg",
+    photo: "posts/1.jpeg",
     date: "4 mins ago",
     userId: 1,
     like: 36,
@@ -63,7 +63,7 @@ export const Posts = [
   },
   {
     id: 2,
-    photo: "assets/posts/2.jpeg",
+    photo: "posts/2.jpeg",
     date: "16 mins ago",
     userId: 2,
     like: 3,
@@ -72,7 +72,7 @@ export const Posts = [
   {
     id: 3,
     desc: "Traffic congestion problems at hive 4!",
-    photo: "assets/posts/3.jpeg",
+    photo: "posts/3.jpeg",
     date: "1 hour ago",
     userId: 3,
     like: 54,
@@ -80,7 +80,7 @@ export const Posts = [
   },
   {
     id: 4,
-    photo: "assets/posts/4.jpeg",
+    photo: "posts/4.jpeg",
     date: "3 hours ago",
     userId: 4,
     like: 5,
@@ -88,7 +88,7 @@ export const Posts = [
   },
   {
     id: 5,
-    photo: "assets/posts/5.jpeg",
+    photo: "posts/5.jpeg",
     date: "5 hours ago",
     userId: 5,
     like: 25,
@@ -96,7 +96,7 @@ export const Posts = [
   },
   {
     id: 6,
-    photo: "assets/posts/6.jpeg",
+    photo: "posts/6.jpeg",
     date: "1 day ago",
     userId: 6,
     like: 42,
@@ -105,7 +105,7 @@ export const Posts = [
   {
     id: 7,
     desc: "Honey leakage! Be careful!",
-    photo: "assets/posts/7.jpeg",
+    photo: "posts/7.jpeg",
     date: "2 days ago",
     userId: 7,
     like: 72,
@@ -113,7 +113,7 @@ export const Posts = [
   },
   {
     id: 8,
-    photo: "assets/posts/8.jpeg",
+    photo: "posts/8.jpeg",
     date: "3 days ago",
     userId: 8,
     like: 14,
@@ -122,7 +122,7 @@ export const Posts = [
   {
     id: 9,
     desc: "1 week vacation for any Bee who finds this flower!",
-    photo: "assets/posts/9.jpeg",
+    photo: "posts/9.jpeg",
     date: "5 days ago",
     userId: 9,
     like: 42,
@@ -130,7 +130,7 @@ export const Posts = [
   },
   {
     id: 10,
-    photo: "assets/posts/10.jpeg",
+    photo: "posts/10.jpeg",
     date: "1 week ago",
     userId: 10,
     like: 10,
